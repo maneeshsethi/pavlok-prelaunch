@@ -12,29 +12,29 @@ class User < ActiveRecord::Base
 
     REFERRAL_STEPS = [
         {
-            'count' => 5,
-            "html" => "Shave<br>Cream",
+            'count' => 2,
+            "html" => "The Habit<br>Change eBook",
             "class" => "two",
-            "image" =>  ActionController::Base.helpers.asset_path("refer/cream-tooltip@2x.png")
+            "image" =>  ActionController::Base.helpers.asset_path("pavlok/1-ebook.png")
         },
         {
-            'count' => 10,
-            "html" => "Truman Handle<br>w/ Blade",
+            'count' => 5,
+            "html" => "One Pre-Paid<br>Shock Credit",
             "class" => "three",
-            "image" => ActionController::Base.helpers.asset_path("refer/truman@2x.png")
+            "image" => ActionController::Base.helpers.asset_path("pavlok/2-shock-credit.png")
         },
         {
-            'count' => 25,
-            "html" => "Winston<br>Shave Set",
+            'count' => 15,
+            "html" => "One Pavlok Shocking<br>Business Card",
             "class" => "four",
-            "image" => ActionController::Base.helpers.asset_path("refer/winston@2x.png")
+            "image" => ActionController::Base.helpers.asset_path("pavlok/3-shocking-business-card.png")
         },
         {
-            'count' => 50,
-            "html" => "One Year<br>Free Blades",
+            'count' => 40,
+            "html" => "One Pavlok Wristband<br>Of Your Very Own",
             "class" => "five",
-            "image" => ActionController::Base.helpers.asset_path("refer/blade-explain@2x.png")
-        }
+            "image" => ActionController::Base.helpers.asset_path("pavlok/4-pavlok.png")
+        } 
     ]
 
     private

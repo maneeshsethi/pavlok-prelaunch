@@ -13,6 +13,45 @@
  */
 
 
+/*FONTS*/
+
+@font-face
+{
+    font-family: halisgr-book;
+    src: url(../fonts/HalisGR-Book.otf);
+}
+@font-face
+{
+    font-family: halisgr-extralightitalic;
+    src: url(../fonts/HalisGR-ExtraLightItalic.otf);
+}
+@font-face
+{
+    font-family: halisgr-light;
+    src: url(../fonts/HalisGR-Light.otf);
+}
+@font-face
+{
+    font-family: halisgr-regular;
+    src: url(../fonts/HalisGR-Regular.otf);
+}
+@font-face
+{
+    font-family: halisgr-sbook;
+    src: url(../fonts/HalisGR-SBook.otf);
+}
+@font-face
+{
+    font-family: halisgr-smedium;
+    src: url(../fonts/HalisGR-SMedium.otf);
+}
+@font-face
+{
+    font-family: halisgr-slight;
+    src: url(../fonts/HalisGR-SLight.otf);
+}
+
+
 form{
 	margin-bottom: 0;
 }
@@ -247,7 +286,7 @@ html.home{
 }
 
 .brandon{
-	font-family: "Brandon Grotesque", "brandon-grotesque", "HelveticaNeue", "Helvetica", "Arial", sans-serif;
+	font-family: "'halisgr-slight", "Brandon Grotesque", "brandon-grotesque", "HelveticaNeue", "Helvetica", "Arial", sans-serif;
 }
 
 #refer{
@@ -263,7 +302,8 @@ html.home{
 
 #refer .header{
 	height: 50px;
-	background: #074E6F;
+	/*background: #074E6F;*/
+	background: #000;
 	width: 100%;
 	overflow:hidden;
 	z-index: 1;
@@ -309,7 +349,7 @@ html.home{
 #refer .mammoth{
 	width: 612px;
 	height: 394px;
-	background: url(/assets/refer/mammoth.png) 0 0 no-repeat;
+	background: url(/assets/pavlok/wristband-hand-1.png) 0 0 no-repeat;
 	background-size: 610px 394px;
 	overflow: hidden;
 	margin-top: 15px;
@@ -317,16 +357,36 @@ html.home{
 }
 
 #refer .mammoth .need{
-	color: #FFF;
-	font-size: 38px;
+	color: #000	;
+	font-size: 54px;
+   -webkit-text-stroke: 1px gray;
+
 	text-transform: uppercase;
 	font-weight: bold;
-	margin: 102px 0 0 72px;
+	margin: 102px 0 0 7px;
+	margin-left: 40px;
 	display: block;
-	line-height: 56px;
+	line-height: 72px;
 	letter-spacing: 4px;
 	text-align: center;
-	width: 284px;
+	min-width: 284px;
+}
+
+
+#sometimes-crazy{
+	color: #000	;
+	font-size: 54px;
+   -webkit-text-stroke: 1px gray;
+	font-family:halisgr-smedium;
+	text-transform: uppercase;
+	font-weight: bold;
+	margin: 102px 0 0 7px;
+	margin-left: 40px;
+	display: block;
+	line-height: 72px;
+	letter-spacing: 4px;
+	text-align: center;
+	min-width: 284px;
 }
 
 #refer .share-wrap{
@@ -641,12 +701,12 @@ only screen and (min-device-pixel-ratio: 2) {
 	}
 
 	#refer .header .logo{
-		background: url(/assets/refer/logo@2x.png) 0 0 no-repeat;
+		background: url(/assets/pavlok/logo-yellow.png) 0 0 no-repeat;
 		background-size: 106px 19px;
 	}
 
 	#refer .mammoth{
-		background: url(/assets/refer/mammoth@2x.png) 0 0 no-repeat;
+		background: url(/assets/pavlok/wristband-hand-1.png) 0 0 no-repeat;
 		background-size: 610px 394px;
 	}
 
