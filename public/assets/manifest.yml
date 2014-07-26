@@ -23,8 +23,8 @@ email/refer.jpg: email/refer-52361fd71aff3cb5e4eb3038ab41336a.jpg
 email/refer/index.jpg: email/refer-52361fd71aff3cb5e4eb3038ab41336a.jpg
 email/twitter.jpg: email/twitter-d469adc5ec1cfdb85cc3714c3db041f4.jpg
 email/twitter/index.jpg: email/twitter-d469adc5ec1cfdb85cc3714c3db041f4.jpg
-favicon.ico: favicon-1d8eca370481ab7b6a9a69b5f201f2d4.ico
-favicon/index.ico: favicon-1d8eca370481ab7b6a9a69b5f201f2d4.ico
+favicon.ico: favicon-941799437699002a3e77932753aa1280.ico
+favicon/index.ico: favicon-941799437699002a3e77932753aa1280.ico
 home/hero.jpg: home/hero-dfe14a47319d7f97cf7de8fde741afb5.jpg
 home/hero/index.jpg: home/hero-dfe14a47319d7f97cf7de8fde741afb5.jpg
 home/hero@2x.jpg: home/hero@2x-c1e28d1d21fe3c0a95e55a2657b2d7ca.jpg
@@ -109,8 +109,10 @@ refer/winston@2x.png: refer/winston@2x-e3d08d6f6b936c3c692731632471f78a.png
 refer/winston@2x/index.png: refer/winston@2x-e3d08d6f6b936c3c692731632471f78a.png
 application.js: application-d1dbc22ff3da2fa875d5b9de579f6111.js
 application/index.js: application-d1dbc22ff3da2fa875d5b9de579f6111.js
-application.css: application-bbda24e3692d26bd6752e5eacb69ae39.css
-application/index.css: application-bbda24e3692d26bd6752e5eacb69ae39.css
+application.css: application-255a9e98ae7ce3f3380f6a69b7fb61e8.css
+application/index.css: application-255a9e98ae7ce3f3380f6a69b7fb61e8.css
+core.css: core-31a6fd0343b6463cfef73990aa58fe1d.css
+core/index.css: core-31a6fd0343b6463cfef73990aa58fe1d.css
 active_admin/admin_notes_icon.png: active_admin/admin_notes_icon-25b05cd8197f7a271d0624853a6dbdd5.png
 active_admin/admin_notes_icon/index.png: active_admin/admin_notes_icon-25b05cd8197f7a271d0624853a6dbdd5.png
 active_admin/datepicker/datepicker-header-bg.png: active_admin/datepicker/datepicker-header-bg-6f0baad739953cb1a0413c031841e82f.png
